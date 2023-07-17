@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "E4GHIdxFuY+kMNJg01iw543DJiVCZ0TvTq2dsPLzF0reRxbsr27UimDaY7qEoHNujXxRJnj3M080d8F+B7rREg==",
+  "success": true,
+  "projectFilePath": "/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/BefungeInterpreter.csproj",
+  "expectedPackageFiles": [
+    "/home/computerelite/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.18/microsoft.netcore.app.host.linux-x64.6.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}

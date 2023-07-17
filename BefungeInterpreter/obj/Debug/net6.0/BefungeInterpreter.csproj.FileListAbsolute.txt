@@ -1,0 +1,15 @@
+/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/bin/Debug/net6.0/BefungeInterpreter
+/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/bin/Debug/net6.0/BefungeInterpreter.deps.json
+/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/bin/Debug/net6.0/BefungeInterpreter.runtimeconfig.json
+/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/bin/Debug/net6.0/BefungeInterpreter.dll
+/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/bin/Debug/net6.0/BefungeInterpreter.pdb
+/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/obj/Debug/net6.0/BefungeInterpreter.csproj.AssemblyReference.cache
+/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/obj/Debug/net6.0/BefungeInterpreter.GeneratedMSBuildEditorConfig.editorconfig
+/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/obj/Debug/net6.0/BefungeInterpreter.AssemblyInfoInputs.cache
+/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/obj/Debug/net6.0/BefungeInterpreter.AssemblyInfo.cs
+/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/obj/Debug/net6.0/BefungeInterpreter.csproj.CoreCompileInputs.cache
+/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/obj/Debug/net6.0/BefungeInterpreter.dll
+/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/obj/Debug/net6.0/refint/BefungeInterpreter.dll
+/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/obj/Debug/net6.0/BefungeInterpreter.pdb
+/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/obj/Debug/net6.0/BefungeInterpreter.genruntimeconfig.cache
+/home/computerelite/rider/BefungeInterpreter/BefungeInterpreter/obj/Debug/net6.0/ref/BefungeInterpreter.dll
