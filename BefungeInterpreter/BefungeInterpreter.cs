@@ -190,12 +190,12 @@ public class BefungeInterpreter
 
     private void InputChar()
     {
-        stack.Add(Console.ReadKey().KeyChar);
+        stack.Add(Console.ReadKey(true).KeyChar);
     }
 
     private void InputNumber()
     {
-        stack.Add(Convert.ToInt32(Console.ReadKey().KeyChar.ToString()));
+        stack.Add(Convert.ToInt32(Console.ReadKey(true).KeyChar.ToString()));
     }
 
     private void Get()
@@ -203,6 +203,8 @@ public class BefungeInterpreter
         // A "get" call (a way to retrieve data in storage). Pop y and x, then push ASCII value of the character at that position in the program
         int y = a;
         int x = b;
+        stack.RemoveAt(stack.Count - 1);
+        stack.RemoveAt(stack.Count - 1);
         stack.Add(playfield[x, y]);
         playfield[x, y] = ' ';
     }
@@ -213,6 +215,9 @@ public class BefungeInterpreter
         int y = a;
         int x = b;
         int v = stack[^3];
+        stack.RemoveAt(stack.Count - 1);
+        stack.RemoveAt(stack.Count - 1);
+        stack.RemoveAt(stack.Count - 1);
         playfield[x, y] = (char)v;
     }
 

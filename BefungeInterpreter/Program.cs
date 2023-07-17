@@ -6,7 +6,14 @@
         {
             BefungeInterpreter i = new BefungeInterpreter();
             i.LoadFile("befunge.befunge");
-            i.Execute();
+            try
+            {
+                i.Execute();
+            } catch(Exception e)
+            {
+                Console.WriteLine(e);
+                Console.WriteLine("X: " + i.x + " Y: " + i.y);
+            }
         }   
     }
 }
