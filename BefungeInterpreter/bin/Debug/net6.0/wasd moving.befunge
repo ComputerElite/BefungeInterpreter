@@ -28,7 +28,16 @@
                                    d pressed, pop user input     set dx to 1 and dy to 0
                                    >          $                      103p        004p     v
                             >:"d"-!|
-                                   >           v
+                                   
+                                                esc pressed exit
+                                          >"gniyalp rof sknahT",,,,,,,,,,,,,,,,,,@
+                                   >:93*-!|
+                                          >    v
+
+
+
+
+
    ^        ,,,,,,,,,,,,,,,,"Use wasd to move" <
                   no correct input
 
@@ -52,162 +61,30 @@
    
    
     Display player pos
+
     
-    load x and y, check if both are 0
+    tmp x: 0,5
+    tmp y: 0,6
+    i: 0,7
+    
+    store tmpx with 0
+   > 005pv
+   v     <
+       
+        
+    for loop, 9 iterations        push 1 on stack, load i, subtract 1, store i     loop is going, add 1 to tmp x     load y and a onto stack, load tmp x >" ",v
+                                                                                 >                05g 1+ 05p       > 02g:02p 01g:01p          05g:05p   -|
+   >          907p                1                07g     -           07p       | i is 0, loop done                                                     >"X",v 
+                                                                                 > v
+   ^                                                                                                                                                          <
+  ^                                                                                <
+
+
+
+
                        >  >" ",v
    > 01g:01p 02g:02p 0-|
                        >0-|
                           >"X",v
    v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 0-|
-                       >1-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 0-|
-                       >2-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 0-|
-                       >3-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 0-|
-                       >4-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 0-|
-                       >5-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 0-|
-                       >6-|
-                          >"X",v
-   v                           <
-   5
-   2
-   *
-   ,
-                       >  >" ",v
-   > 01g:01p 02g:02p 1-|
-                       >0-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 1-|
-                       >1-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 1-|
-                       >2-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 1-|
-                       >3-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 1-|
-                       >4-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 1-|
-                       >5-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 1-|
-                       >6-|
-                          >"X",v
-   v                           <
-   5
-   2
-   *
-   ,
-                       >  >" ",v
-   > 01g:01p 02g:02p 2-|
-                       >0-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 2-|
-                       >1-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 2-|
-                       >2-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 2-|
-                       >3-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 2-|
-                       >4-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 2-|
-                       >5-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 2-|
-                       >6-|
-                          >"X",v
-   v                           <
-   5
-   2
-   *
-   ,
-                       >  >" ",v
-   > 01g:01p 02g:02p 3-|
-                       >0-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 3-|
-                       >1-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 3-|
-                       >2-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 3-|
-                       >3-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 3-|
-                       >4-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 3-|
-                       >5-|
-                          >"X",v
-   v                           <
-                       >  >" ",v
-   > 01g:01p 02g:02p 3-|
-                       >6-|
-                          >"X",v
-   v                           <
-   5
-   2
-   *
-   ,
-  ^<
+  

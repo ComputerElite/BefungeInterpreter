@@ -15,31 +15,7 @@ public class BefungeInterpreter
     /// <summary>
     /// Converts the code into a playfield
     /// </summary>
-    public void LoadCode()
-    {
-        List<string> lines = code.Split('\n').ToList();
-        for (int i = 0; i < lines.Count; i++)
-        {
-            for (int j = 0; j < lines[i].Length; j++)
-            {
-                // If the position is present in the code set the playfield to that. Otherwise set it to a space
-                if (i < lines.Count && j < lines[i].Length)
-                {
-                    playfield[j, i] = lines[i][j];
-                }
-                else
-                {
-                    playfield[j, i] = ' ';
-                }
-            }
-        }
-    }
     
-    public void LoadFile(string location)
-    {
-        code = File.ReadAllText(location);
-        LoadCode();
-    }
 
     private int a = 0;
     private int b = 0;
