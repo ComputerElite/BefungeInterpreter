@@ -66,25 +66,20 @@
     tmp x: 0,5
     tmp y: 0,6
     i: 0,7
+    j: 0,8
     
-    store tmpx with 0
-   > 005pv
-   v     <
-       
-        
-    for loop, 9 iterations        push 1 on stack, load i, subtract 1, store i     loop is going, add 1 to tmp x     load y and a onto stack, load tmp x >" ",v
+    store tmpx with 0, set i to 30, set j to 30
+   > 006p                            325**08pv
+   v                                         <
+                                                                                 for loop still going (y)
+                                                                                 >  06g 1+ 06pv
+ > >                              08g                1     -           :08p      |              
+  ^                                                                              <                
+                                                                                                 
+   v                  p70**523             p500                              ,*25             <
+    for loop, 9 iterations        push 1 on stack, load i, subtract 1, store i     loop is going, add 1 to tmp x     load y and x onto stack, load tmp x >           >" ",v
                                                                                  >                05g 1+ 05p       > 02g:02p 01g:01p          05g:05p   -|
-   >          907p                1                07g     -           07p       | i is 0, loop done                                                     >"X",v 
-                                                                                 > v
-   ^                                                                                                                                                          <
-  ^                                                                                <
-
-
-
-
-                       >  >" ",v
-   > 01g:01p 02g:02p 0-|
-                       >0-|
-                          >"X",v
-   v                           <
-  
+   >                              07g                1     -           :07p      | i is 0, loop done                                                     > 06g:06p  -|
+                                                                                 > v                                                                                 >"X",v
+   ^                                                                                                                                                                      <
+ ^                                                                                 <
